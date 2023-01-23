@@ -9,7 +9,7 @@ namespace Regexdemo
             RGX regex= new RGX();
             Console.WriteLine( regex.b("Nehal.Dutta09@bridgelabz.com"));
             Console.WriteLine(regex.check("8638451211"));
-            Console.WriteLine(regex.check2("passw0rd2611"));
+            Console.WriteLine(regex.check2("passwordd"));
         }
     }
 }
