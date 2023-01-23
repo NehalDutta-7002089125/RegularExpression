@@ -9,7 +9,7 @@ namespace Regexdemo
     {
         public static string a = "^[a-z0-9A-Z]{1,10}.[a-z0-9A-Z]{1,10}@bridgelabz.(co|in|com)$";
         public static string d = "^[0-9]{1,10}$";
-        public static string password = "^[a-z0-9A-Z]{8,15}$";
+        public static string password = "^[a-z@$0-9A-Z]{8,15}$";
         public bool b(string c)
         {
             return Regex.IsMatch(c,a);
