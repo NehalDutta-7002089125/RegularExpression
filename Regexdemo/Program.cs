@@ -7,7 +7,7 @@ namespace Regexdemo
         static void Main(string[] args)
         {
             RGX regex= new RGX();
-            Console.WriteLine( regex.b("Sam"));
+            Console.WriteLine( regex.b("Sam_Bam"));
         }
     }
 }

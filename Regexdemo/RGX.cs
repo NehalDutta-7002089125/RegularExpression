@@ -7,7 +7,7 @@ namespace Regexdemo
 {
     internal class RGX
     {
-        public static string a = "^[a-zA-Z]{3}$";
+        public static string a = "^[a-zA-Z]{3}_[a-zA-Z]{3}$";
 
         public bool b(string c)
         {
