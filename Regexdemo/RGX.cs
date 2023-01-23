@@ -8,10 +8,14 @@ namespace Regexdemo
     internal class RGX
     {
         public static string a = "^[a-z0-9A-Z]{1,10}.[a-z0-9A-Z]{1,10}@bridgelabz.(co|in|com)$";
-
+        public static string d = "^[0-9]{1,10}$";
         public bool b(string c)
         {
             return Regex.IsMatch(c,a);
+        }
+        public bool check(string e)
+        {
+            return Regex.IsMatch(e,d);
         }
     }
 }
